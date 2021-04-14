@@ -12,9 +12,12 @@ function HeroSection({
   headline,
   description,
   buttonLabel,
+  buttonLabel2,
   img,
   alt,
-  imgStart
+  imgStart,
+  githubLink,
+  demoLink
 }) {
   return (
     <>
@@ -44,9 +47,20 @@ function HeroSection({
                 >
                   {description}
                 </p>
-                <Link to='/sign-up'>
+                <Link 
+                to='/projects'
+                onClick={() => window.location.assign(githubLink)}
+                >
                   <Button buttonSize='btn--wide' buttonColor='blue'>
                     {buttonLabel}
+                  </Button>
+                </Link>
+                <Link 
+                to='/projects'
+                onClick={() => window.location.assign(demoLink)}
+                >
+                  <Button buttonSize='btn--wide' buttonColor='blue'>
+                    Demo
                   </Button>
                 </Link>
               </div>

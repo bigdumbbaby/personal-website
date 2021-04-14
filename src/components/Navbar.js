@@ -3,7 +3,7 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { MdFingerprint } from 'react-icons/md';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaBars, FaTimes, FaHammer } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 
 function Navbar() {
@@ -36,8 +36,8 @@ function Navbar() {
         <nav className='navbar'>
           <div className='navbar-container container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-              <MdFingerprint className='navbar-icon' />
-              LAVISH
+              <FaHammer className='navbar-icon' />
+              Colton O'Connor
             </Link>
             <div className='menu-icon' onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -50,23 +50,32 @@ function Navbar() {
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/services'
+                  to='/blog'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
-                  Services
+                  Blog Posts
                 </Link>
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/products'
+                  to='/projects'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
-                  Products
+                  Projects
                 </Link>
               </li>
-              <li className='nav-btn'>
+              <li className='nav-item'>
+                <Link
+                  to='/about'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+                >
+                  About Me
+                </Link>
+              </li>
+              {/* <li className='nav-btn'>
                 {button ? (
                   <Link to='/sign-up' className='btn-link'>
                     <Button buttonStyle='btn--outline'>SIGN UP</Button>
@@ -82,7 +91,7 @@ function Navbar() {
                     </Button>
                   </Link>
                 )}
-              </li>
+              </li> */}
             </ul>
           </div>
         </nav>
