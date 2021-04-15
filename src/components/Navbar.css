@@ -8,6 +8,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .navbar-container {
@@ -34,6 +35,7 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .navbar-icon {
@@ -136,6 +138,7 @@
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 
   .fa-times {

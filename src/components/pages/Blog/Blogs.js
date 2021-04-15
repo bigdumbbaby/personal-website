@@ -1,13 +1,13 @@
 import React from 'react';
 import HeroSection from '../../HeroSection';
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './projectsData';
-import './Projects.css'
+import { homeObjOne, homeObjTwo, homeObjThree} from './blogData';
+import './Blogs.css'
 
-function Projects() {
+function Blogs() {
   return (
     <>
     <div className='title-container'>
-      <h1 className='title'>Projects</h1>
+      <h1 className='title'>Blog Posts</h1>
     </div>
       <HeroSection {...homeObjOne} />
       <HeroSection {...homeObjTwo} />
@@ -16,4 +16,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Blogs;

@@ -39,6 +39,8 @@
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 
 .heading {
@@ -47,6 +49,7 @@
   line-height: 1.1;
   font-weight: 600;
   color: #f7f8fa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .dark {
@@ -62,6 +65,8 @@
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 
 .home__hero-img-wrapper {
