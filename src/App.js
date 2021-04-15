@@ -10,15 +10,15 @@ import Blogs from './components/pages/Blog/Blogs';
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Switch>
-        <Route path='/' exact component={Home} />
-        <Route path='/projects' exact component={Projects} />
-        <Route path='/blogs' exact component={Blogs} />
-      </Switch>
-      <Footer />
-    </Router>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/projects' exact component={Projects} />
+          <Route path='/blogs' exact component={Blogs} />
+        </Switch>
+        <Footer />
+      </Router>
   );
 }
 

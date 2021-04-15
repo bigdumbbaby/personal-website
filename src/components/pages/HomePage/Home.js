@@ -1,10 +1,13 @@
 import React from 'react';
+import './Home.css'
 
 function Home() {
   return (
-    <>
-      <h1>Home</h1>
-    </>
+    <div className='title-container ' style={{backgroundImage: 'url(/images/homePage.jpg)'}}>
+      <div className='text-container'>
+        <h1 className='title'>HomePage</h1>
+      </div>
+    </div>
   );
 }
 

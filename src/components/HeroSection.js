@@ -55,14 +55,18 @@ function HeroSection({
                     {buttonLabel}
                   </Button>
                 </Link>
-                <Link 
-                to='/projects'
-                onClick={() => window.location.assign(demoLink)}
-                >
-                  <Button buttonSize='btn--wide' buttonColor='blue'>
-                    Demo
-                  </Button>
-                </Link>
+                { demoLink
+                  ? <Link 
+                  to='/projects'
+                  onClick={() => window.location.assign(demoLink)}
+                  >
+                    <Button buttonSize='btn--wide' buttonColor='blue'>
+                      Demo
+                    </Button>
+                  </Link>
+                  : null
+                }
+                
               </div>
             </div>
             <div className='col'>
