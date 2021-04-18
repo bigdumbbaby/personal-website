@@ -1,5 +1,5 @@
 .footer-container {
-  background-color: #1c2237;
+  background-color: #330000;
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -25,13 +25,22 @@
   width: 90%;
   max-width: 1000px;
   margin: 40px auto 0 auto;
+  /* border-style: solid;
+  border-color: red; */
 }
 
-.social-icons {
+.icon-container {
   display: flex;
-  /* justify-content: space-between; */
-  align-items: center;
-  width: 240px;
+  width: 200px;
+  height: 200px;
+  /* border-style: solid;
+  border-color: red; */
+}
+
+.footer-title {
+  font-size: 48px;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 @media screen and (max-width: 820px) {
