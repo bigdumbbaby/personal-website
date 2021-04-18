@@ -3,8 +3,8 @@ import React from 'react';
 import './App.css';
 import Home from './components/pages/HomePage/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Footer from './components/pages/Footer/Footer'
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer'
 import Projects from './components/pages/Projects/Projects';
 import Blogs from './components/pages/Blog/Blogs';
 
