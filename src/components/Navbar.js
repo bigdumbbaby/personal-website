@@ -37,7 +37,7 @@ function Navbar() {
           <div className='navbar-container container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
               <FaHammer className='navbar-icon' />
-              Colton O'Connor
+              Colton
             </Link>
             <div className='menu-icon' onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}

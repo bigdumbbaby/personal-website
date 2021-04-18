@@ -50,7 +50,7 @@ export const homeObjFour = {
   topLine: '',
   headline: 'Want to Dynamically Change Music in a Ruby CLI App?',
   description:
-    'Hello Friends. I wanted to go back and revisit the first project I made with another friend from the bootcamp, Brett Needham. In this project (find hit here: https://github.com/bigdumbbaby/The_Dungeon) we made an old school text game using active record and some ruby gems. We wanted to incorporate music into the game, setting a unique song depending on the location you are at. So I found some Dungeon Synth to set the mood, seeded each location with a string of the songs file path, and then started working on a way to change the songs...',
+    'Hello Friends. I wanted to go back and revisit the first project I made with another friend from the bootcamp, Brett Needham. In this project we made an old school text game using active record and some ruby gems. We wanted to incorporate music into the game, setting a unique song depending on the location you are at. So I found some Dungeon Synth to set the mood, seeded each location with a string of the songs file path, and then started working on a way to change the songs...',
   buttonLabel: 'Full Post',
   imgStart: 'start',
   img: 'images/blog2.png',
