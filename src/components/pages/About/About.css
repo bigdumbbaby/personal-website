@@ -91,6 +91,16 @@ img {
     padding-left: 30px;
   }
 } */
+.logo-container {
+  flex-direction: column;
+  align-items: center;
+}
+.about-logos {
+  flex: 1;
+  flex-direction: row;
+  /* border-style: solid;
+  border-color: red; */
+}
 
 @media screen and (max-width: 768px) {
   .about__hero-text-wrapper {

@@ -1,8 +1,8 @@
 
 import React from 'react';
 import './HeroSection.css';
-import { Button } from './Button';
-import { Link } from 'react-router-dom';
+import { Button, Link } from '@material-ui/core';
+// import { Link } from 'react-router-dom';
 
 function HeroSection({
   lightBg,
@@ -20,6 +20,7 @@ function HeroSection({
   demoLink,
   pageLink
 }) {
+  console.log(buttonLabel2)
   return (
     <>
       <div
@@ -48,23 +49,25 @@ function HeroSection({
                 >
                   {description}
                 </p>
-                <Link 
+                {/* <Link 
                 to={pageLink}
                 onClick={() => window.location.assign(githubLink)}
                 >
                   <Button buttonSize='btn--wide' buttonColor='blue'>
                     {buttonLabel}
                   </Button>
+                </Link> */}
+                <Link href={githubLink} target="_blank">
+                  <Button size='small' variant='contained' style={{width: '10rem', marginBottom: '0.5rem', marginTop: '0.5rem', backgroundColor: '#b30000', color: 'white'}}>
+                      {buttonLabel}
+                  </Button>
                 </Link>
                 { demoLink
-                  ? <Link 
-                  to={pageLink}
-                  onClick={() => window.location.assign(demoLink)}
-                  >
-                    <Button buttonSize='btn--wide' buttonColor='blue'>
-                      Demo
-                    </Button>
-                  </Link>
+                  ? <Link href={demoLink} target="_blank">
+                      <Button size='small' variant='contained' style={{width: '8rem', marginBottom: '0.5rem', marginTop: '0.5rem', backgroundColor: '#b30000', color: 'white' }}>
+                          Demo
+                      </Button>
+                    </Link>
                   : null
                 }
                 

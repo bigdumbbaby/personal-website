@@ -1,13 +1,33 @@
 import React from 'react';
 import './About.css';
-import { Link } from 'react-router-dom';
 import { Button } from '../../Button';
 import {
   FaGithub,
   FaLinkedin
 } from 'react-icons/fa';
+import { Container, Avatar, Link } from '@material-ui/core'
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    display: 'flex',
+    '& > *': {
+      margin: theme.spacing(1),
+    },
+  },
+  small: {
+    width: theme.spacing(3),
+    height: theme.spacing(3),
+  },
+  large: {
+    width: theme.spacing(8),
+    height: theme.spacing(8),
+  },
+}));
 
 function About() {
+  const classes = useStyles();
+
   return (
     <>
       <div
@@ -32,24 +52,10 @@ function About() {
                 >
                   Full-Stack Engineer with a background in Electrical and Computer Engineering. Possess strong rapport building and cross-functional collaboration with clients, colleagues, and all tiers of leadership that help Software Developers drive to build community and achieve their goals. Technical experiences include Ruby on Rails, JavaScript, React, React Native, HTML5, Node, Express, Knex, and Postgres.
                 </p>
-                <Link 
-                to='/about'
-                onClick={() => window.location.assign('https://github.com/bigdumbbaby/')}
-                >
-                  <Button buttonSize='btn--wide' buttonColor='blue'>
-                    Github 
-                    <FaGithub className='footer-icon'/>
-                  </Button>
-                </Link>
-                <Link 
-                to='/about'
-                onClick={() => window.location.assign('https://github.com/bigdumbbaby/')}
-                >
-                  <Button buttonSize='btn--wide' buttonColor='blue' size='1x'>
-                    LinkedIn 
-                    <FaLinkedin className='footer-icon'/>
-                  </Button>
-                </Link>
+                <Container maxWidth="lg" disableGutters={true} style={{display: 'flex', flexFlow: 'row', justifyContent: 'center', paddingTop: '0.5rem'}}>
+                  
+                </Container>
+
               </div>
             </div>
             <div className='col'>

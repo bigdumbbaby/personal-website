@@ -40,7 +40,7 @@ export const homeObjThree = {
   headline: 'The Dungeon',
   description:
     "The Dungeon is a CLI application that allows users to jump into a RPG style game straight out of the 1970's. Jump into the game and find yourself with a quest to fight the the all mighty dragon. But first you will need to find allies to join you on the great challenge ahead.",
-  buttonLabel: 'Start Now',
+  buttonLabel: 'GitHub',
   imgStart: 'start',
   img: 'images/dungeon.png',
   alt: 'Vault',
