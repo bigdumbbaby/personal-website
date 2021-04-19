@@ -10,6 +10,19 @@
   /* display: tabel-cell; */
   /* display: inline-block; */
   min-height: 100%; 
+  flex-direction: column;
+}
+
+.home-card {
+  flex-direction: column;
+  display: inline-block;
+  /* align-items: center;  */
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: rgba(128, 128, 128, 0.6);
+  margin: 50px;
+  
 }
 
 .title {
