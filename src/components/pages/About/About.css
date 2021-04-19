@@ -2,6 +2,10 @@
   color: #fff;
   padding: 160px 0;
 }
+.about-container {
+  padding-right: 30px;
+  padding-left: 50px;
+}
 
 .about__hero-row {
   align-items: center;
@@ -76,17 +80,17 @@
 
 img {
   border: 0;
-  max-width: 100%;
+  /* max-width: 100%; */
   vertical-align: middle;
   display: inline-block;
 }
 
-@media screen and (max-width: 991px) {
+/* @media screen and (max-width: 991px) {
   .about-container {
     padding-right: 30px;
     padding-left: 30px;
   }
-}
+} */
 
 @media screen and (max-width: 768px) {
   .about__hero-text-wrapper {
