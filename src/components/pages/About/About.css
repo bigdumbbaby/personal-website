@@ -43,21 +43,13 @@
 
 }
 
-.heading {
+.about-heading {
   margin-bottom: 10px;
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
   color: #330000;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.dark {
-  color: #330000;
-}
-
-.darkBg {
-  background-color: #330000;
 }
 
 .about__hero-subtitle {
@@ -90,7 +82,7 @@ img {
 }
 
 @media screen and (max-width: 991px) {
-  .container {
+  .about-container {
     padding-right: 30px;
     padding-left: 30px;
   }

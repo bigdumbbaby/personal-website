@@ -13,7 +13,7 @@ function About() {
       <div
         className='about__hero-section'
       >
-        <div className='container'>
+        <div className='about-container'>
           <div
             className='row about__hero-row'
             style={{
@@ -23,7 +23,7 @@ function About() {
           >
             <div className='col'>
               <div className='about__hero-text-wrapper'>
-                <h1 className='heading'>
+                <h1 className='about-heading'>
                   Colton O'Connor
                 </h1>
                 <div className='top-line'>Full Stack Software Engineer</div>
