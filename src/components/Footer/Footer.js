@@ -32,13 +32,13 @@ function Footer() {
           </div>
           <div className='logo-container'>
             <Link href="https://www.linkedin.com/in/colton-o-connor/" target="_blank">
-              <Avatar className="social-icon" alt="LinkedIn Icon" src='/images/linkedin-logo.png' className={classes.large}/>
+              <Avatar className="social-icon" alt="LinkedIn Icon" src='/images/linkedIn-logo.png' className={classes.large}/>
             </Link>
             <h3 className='logo-label'>LinkedIn</h3>
           </div>
           <div className='logo-container'>
             <Link href="mailto:colton.shawn.oconnor@gmail.com" target="_blank">
-              <Avatar className="social-icon" alt="Gmail Icon" src='/images/Gmail-logo.png' className={classes.large}/>
+              <Avatar className="social-icon" alt="Gmail Icon" src='/images/Gmail-Logo.png' className={classes.large}/>
             <h3 className='logo-label'>Email</h3>
             </Link>
           </div>
