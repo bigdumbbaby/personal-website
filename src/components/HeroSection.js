@@ -17,7 +17,8 @@ function HeroSection({
   alt,
   imgStart,
   githubLink,
-  demoLink
+  demoLink,
+  pageLink
 }) {
   return (
     <>
@@ -48,7 +49,7 @@ function HeroSection({
                   {description}
                 </p>
                 <Link 
-                to='/projects'
+                to={pageLink}
                 onClick={() => window.location.assign(githubLink)}
                 >
                   <Button buttonSize='btn--wide' buttonColor='blue'>
@@ -57,7 +58,7 @@ function HeroSection({
                 </Link>
                 { demoLink
                   ? <Link 
-                  to='/projects'
+                  to={pageLink}
                   onClick={() => window.location.assign(demoLink)}
                   >
                     <Button buttonSize='btn--wide' buttonColor='blue'>

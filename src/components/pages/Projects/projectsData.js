@@ -11,7 +11,8 @@ export const homeObjOne = {
   img: 'images/ABimg.jpeg',
   alt: 'Credit Card',
   githubLink: 'https://github.com/bigdumbbaby/anonymous-booking-frontend',
-  demoLink: 'https://www.youtube.com/watch?v=gTYNDerOhs4'
+  demoLink: 'https://www.youtube.com/watch?v=gTYNDerOhs4',
+  pageLink: '/projects'
 };
 
 export const homeObjTwo = {
@@ -27,7 +28,8 @@ export const homeObjTwo = {
   img: 'images/MPimg.jpeg',
   alt: 'Vault',
   githubLink: 'https://github.com/bigdumbbaby/film-frontend',
-  demoLink: 'https://www.youtube.com/watch?v=vNw2kApGYRk'
+  demoLink: 'https://www.youtube.com/watch?v=vNw2kApGYRk',
+  pageLink: '/projects'
 };
 
 export const homeObjThree = {
@@ -43,19 +45,6 @@ export const homeObjThree = {
   img: 'images/dungeon.png',
   alt: 'Vault',
   githubLink: 'https://github.com/bigdumbbaby/The_Dungeon',
-  demoLink: 'https://www.youtube.com/watch?v=2RNeMRU8Va4&feature=youtu.be'
-};
-
-export const homeObjFour = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: 'DATA ANALYTICS',
-  headline: 'Every transaction is stored on our secure cloud database',
-  description:
-    'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
-  buttonLabel: 'Sign Up Now',
-  imgStart: 'start',
-  img: 'images/svg-8.svg',
-  alt: 'Vault'
+  demoLink: 'https://www.youtube.com/watch?v=2RNeMRU8Va4&feature=youtu.be',
+  pageLink: '/projects'
 };

@@ -11,6 +11,7 @@ export const homeObjOne = {
   img: 'images/blog5.png',
   alt: 'Credit Card',
   githubLink: 'https://colton-shawn-oconnor.medium.com/changing-text-color-based-on-the-background-in-javascript-947bf9bc136b',
+  pageLink: '/blogs'
 };
 
 export const homeObjTwo = {
@@ -26,6 +27,7 @@ export const homeObjTwo = {
   img: 'images/blog4.jpeg',
   alt: 'Vault',
   githubLink: 'https://colton-shawn-oconnor.medium.com/getting-images-color-palette-in-ruby-on-rails-9985b21ce90d',
+  pageLink: '/blogs'
 };
 
 export const homeObjThree = {
@@ -41,6 +43,7 @@ export const homeObjThree = {
   img: 'images/blog3.png',
   alt: 'Vault',
   githubLink: 'https://colton-shawn-oconnor.medium.com/get-color-palette-of-an-image-using-colorthief-6e6eb33815a7',
+  pageLink: '/blogs'
 };
 
 export const homeObjFour = {
@@ -55,7 +58,8 @@ export const homeObjFour = {
   imgStart: 'start',
   img: 'images/blog2.png',
   alt: 'Vault',
-  githubLink: 'https://colton-shawn-oconnor.medium.com/want-to-dynamically-change-music-in-a-ruby-cli-app-9739d930b218'
+  githubLink: 'https://colton-shawn-oconnor.medium.com/want-to-dynamically-change-music-in-a-ruby-cli-app-9739d930b218',
+  pageLink: '/blogs'
 };
 
 export const homeObjFive = {
@@ -70,5 +74,6 @@ export const homeObjFive = {
   imgStart: '',
   img: 'images/blog1.jpeg',
   alt: 'Vault',
-  githubLink: 'https://colton-shawn-oconnor.medium.com/looking-back-on-what-lead-me-to-start-coding-bootcamp-67753ff51c5f'
+  githubLink: 'https://colton-shawn-oconnor.medium.com/looking-back-on-what-lead-me-to-start-coding-bootcamp-67753ff51c5f',
+  pageLink: '/blogs'
 };

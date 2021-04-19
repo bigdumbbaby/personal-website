@@ -33,7 +33,7 @@ function About() {
                   Full-Stack Engineer with a background in Electrical and Computer Engineering. Possess strong rapport building and cross-functional collaboration with clients, colleagues, and all tiers of leadership that help Software Developers drive to build community and achieve their goals. Technical experiences include Ruby on Rails, JavaScript, React, React Native, HTML5, Node, Express, Knex, and Postgres.
                 </p>
                 <Link 
-                to='/projects'
+                to='/about'
                 onClick={() => window.location.assign('https://github.com/bigdumbbaby/')}
                 >
                   <Button buttonSize='btn--wide' buttonColor='blue'>
@@ -42,7 +42,7 @@ function About() {
                   </Button>
                 </Link>
                 <Link 
-                to='/projects'
+                to='/about'
                 onClick={() => window.location.assign('https://github.com/bigdumbbaby/')}
                 >
                   <Button buttonSize='btn--wide' buttonColor='blue' size='1x'>
