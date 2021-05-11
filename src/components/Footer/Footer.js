@@ -26,7 +26,7 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='logo-container'>
             <Link href="https://github.com/bigdumbbaby/" target="_blank">
-              <Avatar className="social-icon" alt="github logo" src='/images/github-icon.svg' className={classes.large}/>
+              <Avatar className="social-icon" alt="github logo" src='/images/github.jpeg' className={classes.large}/>
             </Link>
             <h3 className='logo-label'>GitHub</h3>
           </div>
