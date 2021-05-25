@@ -77,3 +77,19 @@ export const homeObjFive = {
   githubLink: 'https://colton-shawn-oconnor.medium.com/looking-back-on-what-lead-me-to-start-coding-bootcamp-67753ff51c5f',
   pageLink: '/blogs'
 };
+
+export const homeObjSix = {
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: '',
+  headline: 'Updating Redux to 2021 (Functional vs Class Components)',
+  description:
+    'Hello friends! As I am moving forward in the Full Stack Engineering job market, I have begun working code challenges for potential jobs. One I recently worked on was reviewing a pull requests for a React Native application using Redux and TypeScript. I did not have much practice with Redux before hand, and even less practice with TypeScript, but as I went through...',
+  buttonLabel: 'Full Post',
+  imgStart: '',
+  img: 'images/blog6.png',
+  alt: 'Vault',
+  githubLink: 'https://colton-shawn-oconnor.medium.com/updating-redux-to-2021-functional-vs-class-components-2a99bd52605a',
+  pageLink: '/blogs'
+};
